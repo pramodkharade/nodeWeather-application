@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+        <title>Home Page</title>
+    <head>
+        <link rel="icon" href="/images/weather.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>This the main content </p>
+            <form>
+                <input placeholder="location">
+                <button type="submit">Search</button>
+            </form>
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+        
+        {{>footer}}
+        <script src="/js/custom.js"></script>
+    </body>
+</html>
